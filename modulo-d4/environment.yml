@@ -1,0 +1,22 @@
+name: modulo-vis
+
+# Receita do ambiente Conda usado nas aulas práticas do módulo.
+# Criar o ambiente:  conda env create -f environment.yml
+# Ativar:            conda activate modulo-vis
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # núcleo de dados e visualização
+  - numpy=2.4
+  - pandas=3.0
+  - matplotlib=3.11
+  - scikit-learn=1.9
+
+  # ambiente de notebooks (JupyterLab + kernel para o VS Code)
+  - jupyterlab=4.6
+  - ipykernel=7.3
